@@ -19,6 +19,7 @@ public abstract class BaseActivity extends AppCompatActivity implements BottomNa
 
         navigationView = (BottomNavigationView) findViewById(R.id.navigation);
         navigationView.setOnNavigationItemSelectedListener(this);
+
     }
 
     @Override
@@ -43,6 +44,8 @@ public abstract class BaseActivity extends AppCompatActivity implements BottomNa
                 startActivity(new Intent(this, ProfileActivity.class));
             } else if (itemId == R.id.navigation_friends) {
                 startActivity(new Intent(this, FriendsActivity.class));
+            } else if (itemId == R.id.navigation_notifications) {
+                startActivity(new Intent(this, NotificationActivity.class));
             } else if (itemId == R.id.navigation_settings) {
                 startActivity(new Intent(this, SettingsActivity.class));
             }

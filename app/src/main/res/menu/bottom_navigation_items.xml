@@ -13,6 +13,10 @@
         android:icon="@drawable/ic_friends"
         android:title="Friends"/>
     <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notifications"
+        android:title="Notifications"/>
+    <item
         android:id="@+id/navigation_settings"
         android:icon="@drawable/ic_settings"
         android:title="Settings"/>
