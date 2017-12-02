@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "764121278711",
+    "firebase_url": "https://jobtrack-9bad0.firebaseio.com",
+    "project_id": "jobtrack-9bad0",
+    "storage_bucket": "jobtrack-9bad0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764121278711:android:4844d5c448d8ba72",
+        "android_client_info": {
+          "package_name": "com.dev.jobtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764121278711-mpn475pv6b1liqfj8ud9dcmac5i381id.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dev.jobtracker",
+            "certificate_hash": "1adcd20537a0c33099fbe9278913e2c84f5891cd"
+          }
+        },
+        {
+          "client_id": "764121278711-cstbo7vk3r2tbm3vdvpt3tfqqgnq1v5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFIPjZ-3lfE-rbtJ8gSpAsWMUxoXriiP4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764121278711-cstbo7vk3r2tbm3vdvpt3tfqqgnq1v5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
